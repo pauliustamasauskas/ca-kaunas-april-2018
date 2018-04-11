@@ -1,0 +1,26 @@
+.tekstas{
+    font-style:italic;
+    font-weight: bold;
+}
+
+.tekstass{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paveikslas{
+    width: 450px;
+}
+
+.tekstasss{
+    font-weight: bold;
+}
+
+.neliest{
+    font-weight: normal;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: fantasy;
+}

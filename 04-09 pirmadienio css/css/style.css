@@ -1,0 +1,38 @@
+body{
+    background: #efefef;
+    margin: 0px;
+}
+
+#w1{
+    margin-right: 20px;
+    color: red;
+    -webkit-transition: 2s;
+    transition: 2s;
+}
+
+#w1:hover {
+    color: blue;
+    -webkit-transition: 2s;
+    transition: 2s;
+ }
+.d1{
+    width: 200px;
+    height: 200px;
+    background: orange;
+    -webkit-transition: 2s;
+    transition: 2s;
+}
+.d1:hover{
+    background: red;
+    -webkit-transition: 2s;
+    transition: 2s;
+}
+.d2{
+    width: 50%;
+    height: 200px;
+    background: green;
+}
+
+.flex-container{
+  
+}

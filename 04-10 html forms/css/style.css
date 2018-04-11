@@ -1,0 +1,83 @@
+body{
+    background: url("../img/ignasi_pattern_s.png")
+}
+
+h2{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container{
+    width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 50px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.input{
+    width: 100%;
+    border: 3px solid green;
+    border-radius: 25px;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+}
+
+.input:hover{
+    width: 100%;
+    border: 3px solid green;
+    border-radius: 25px;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+}
+
+input:focus {
+    background-color: lightgreen;
+}
+
+.lbl{
+    font-size: 12px;
+    font-family: verdana;
+}
+
+.button{
+    width: 100%;
+    height: 50px;
+    border: 3px solid darkolivegreen;
+    border-radius: 25px;
+    padding: 10px;
+    background: darkolivegreen;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -o-transition: all 3s;
+    transition: all 3s;
+}
+
+.button:hover{
+    width: 100%;
+    height: 70px;
+    border: 3px solid darkolivegreen;
+    border-radius: 25px;
+    padding: 10px;
+    background: red;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -o-transition: all 3s;
+    transition: all 3s;
+}
+
+.fields{
+    display: block;
+    padding: 5px 15px;
+}
+
+.textarea{
+    width: 100% !important; 
+} 
+/* IMPORTANT reikia kad neleistu su pele tampyt langelio */
+

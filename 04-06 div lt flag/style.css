@@ -1,0 +1,35 @@
+body{
+    margin: 0 px;
+}
+
+.div1{
+    background-color: #FDB913;
+    height: 200px;
+    display: block;
+    margin: 0px;
+}
+
+.div2{
+    background-color: #006A44;
+    height: 200px;
+    display: block;
+    margin: 0px;
+}
+
+.div3{
+    background-color: #C1272D;
+    height: 200px;
+    margin: 0px;
+}
+
+.div1 h1, .div2 h1, .div3 h1{
+    margin: 0px;
+}
+
+img{
+    position:absolute;
+    width: 500px;
+    height: 500px;
+    padding-left: 500px;
+    padding-right: 500px;
+}

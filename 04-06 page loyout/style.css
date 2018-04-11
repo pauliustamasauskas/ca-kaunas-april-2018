@@ -1,0 +1,72 @@
+body{
+    background-image: url(tic-tac-toe.png);
+}
+#Header{
+    height: 100px;
+    background-color: #333333;
+}
+
+#Main{
+    width: 960px;
+    min-height: 100px;
+    background-color: #efefef;
+    margin: 50px auto;
+    /* margin: 0px; arba rasyt taip*/
+    /* margin: 5px 10px 0px 10px; arba taip pagal laikrodzio rodykle */
+}
+
+/* .vytis{
+    width: 100%;
+} */
+
+.news{
+    background-color: blue;
+    width: 640px;
+    min-height: 100px;
+    margin: 10px;
+    border: 1px black solid;
+}
+
+.Add{
+    background-color: purple;
+    width: 320px;
+    min-height: 100px;
+    margin: 10px;
+    border: 1px black solid;
+}
+
+.articlea, .articleb, .articlec{
+    width: 400px;
+}
+
+.NewsandAdd{
+    display: flex;
+}
+
+.article3{
+    display: flex;
+}
+
+.articlea{
+    background-color: yellow;
+    margin: 10px;
+    border: 1px black solid;
+}
+
+.articleb{
+    background-color: green;
+    margin: 10px;
+    border: 1px black solid;
+}
+
+.articlec{
+    background-color: red;
+    margin: 10px;
+    border: 1px black solid;
+}
+
+#Footer{
+    height: 100px;
+    background-color: #333333;
+}
+

@@ -1,0 +1,33 @@
+span{
+    font-size: 26px;
+}
+
+.square{
+    background: orange;
+    padding: 50px;
+    border: 10px purple dotted;
+    margin: 100px;
+}
+
+.square2{
+    background: green;
+    margin-bottom: 30px;
+}
+
+.square2 span{
+    margin-bottom: 30px;
+    display: block;
+}
+
+.square3{
+    background: rgb(94, 94, 228);
+    border: 5px rgb(250, 10, 10) dotted;
+    height: 200px;
+    width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: fantasy;
+    /* arba taip : margin: 0px auto */
+
+}

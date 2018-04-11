@@ -1,0 +1,22 @@
+.table {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width: 500px;
+}
+.table td{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+.Pirma{
+    font-weight: bold;
+    background-color:#3D83FF; 
+}
+.table th{
+    background-color: aqua;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    font-weight: 100;
+    text-align: left;
+    /* Reikia sukeisti td su td, kad nereiktu det weight align ir pns */
+}
