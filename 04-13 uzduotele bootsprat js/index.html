@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap js</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+
+        function sum() {
+            let a = document.getElementById("a").value;
+            let b = document.getElementById("b").value;
+
+
+
+            if (a == b) {
+                alert("zodziai yra lygus");
+            } else {
+                alert("zodziai nera lygus");
+            }
+        }
+
+        function login() {
+            let username = document.getElementById("user").value;
+            let password = document.getElementById("pass").value;
+
+            let u_from_server = "fank";
+            let p_from_server = "test123";
+
+            if(username == u_from_server){
+
+            }
+        }else{
+            alert("wrong user");
+        }
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4" id="lyginti">
+                <div class="content">
+                    <input type="text" class="word" name="a" id="a">
+                    <br>
+                    <input type="text" class="word" name="b" id="b">
+                    <br>
+                    <button type="button" id="sum" class="btn btn-danger" onclick="sum()">Lyginti</button>
+                    <h2 id="result"></h2>
+                </div>
+            </div>
+            <div class="col-4" id="login">
+                <div class="content">
+                    <span>Username</span>
+                    <br>
+                    <input type="text" class="word" name="a" id="a">
+                    <br>
+                    <span>Password</span>
+                    <br>
+                    <input type="text" class="word" name="b" id="b">
+                    <div>
+                        <a href="#" class="badge badge-warning">Forget your password</a>
+                    </div>
+                    <br>
+                    <div class="form-check" id="check">
+                        <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+                        <label class="form-check-label" for="autoSizingCheck2">
+                            <span>Remeber me</span>
+                            <button type="button" id="sum" class="btn btn-danger" onclick="sum()">Lyginti</button>
+                            <h2 id="result"></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-md-offset-4">
+                    <div class="account-wall">
+                        <img class="profile-img" src="./img/img.jpg" alt="">
+                        <form class="form-signin">
+                            <input type="text" class="form-control" placeholder="Username" required autofocus>
+                            <input type="password" class="form-control" placeholder="Password" required>
+                            <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="login">Sign in</button>
+                            <label class="checkbox pull-left">
+                                <input type="checkbox" value="remember-me"> Remember me
+                            </label>
+                            <a href="#" class="pull-right need-help" id="forget">Forget your password ? </a>
+                            <label class="pull-right need-help"></label>
+                            <span class="clearfix"></span>
+                        </form>
+                    </div>
+                    <a href="#" class="text-center new-account">Create an account </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
