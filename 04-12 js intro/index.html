@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS intro</title>
+
+    <script>
+        
+        function test(){
+            let x = document.getElementById("price").value;
+            let y = Number(x);
+            console.log(typeof x);
+            
+            y = y + 100;
+            console.log(y);
+            document.getElementById("result").innerHTML = y;
+        }
+
+    </script>
+</head>
+<body>
+    <input type="text" class="price" name="price" id="price"/>
+    <button type="button" id="test" onclick="test()">Test</button>
+    <div id="result"></div>
+
+</body>
+</html>
