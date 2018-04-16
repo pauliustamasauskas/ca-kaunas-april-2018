@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+nav{
+    background-color: #236B1A;
+    padding: 30px;
+}
+
+.link{
+    color: white;
+    padding-right: 10px;
+    
+}
+
+.link:hover{
+    color: black;
+    text-decoration-line: none;
+}
+
+.img-fluid{
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
