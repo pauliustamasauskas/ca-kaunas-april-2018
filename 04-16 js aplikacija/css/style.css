@@ -1,0 +1,12 @@
+body{
+    background-color: lightgray;
+}
+.container{
+    background-color: white;
+    padding: 80px;
+}
+
+.result-position{
+    border: black solid 3px;
+    padding: 80px;
+}
