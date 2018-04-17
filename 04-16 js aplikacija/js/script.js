@@ -6,11 +6,12 @@ function test(){
     
     console.log(typeof product_array);
 
-    let newProduct = document.getElementById("txt_city").value;
+    let newProduct = document.getElementById("txt_product").value;
     product_array.push(newProduct);
 
-    
-    printProduct(product_array); // su funkcijos kvietumu - siunciam kintamaji (masivas) "cities"    printCities(cities);
+    document.getElementById("result").innerText = product_array;
+
+    printProduct(product_array);
 }
 
 
@@ -19,7 +20,7 @@ function printProduct(product_array){
     for(let i = 0; i < product_array.length; i++){
         console.log(i);
         console.log(product_array[i]);
-        h = h + "<div><h3 class='prettyText'>"+product_array[i]+"</h3></div>"; // string aggregate
+        h = h + "<ul><li>"+product_array[i]+"</li></ul>";
     }
     document.getElementById("result").innerHTML = h;
 }
