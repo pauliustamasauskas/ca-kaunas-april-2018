@@ -1,0 +1,24 @@
+body{
+    background-color: grey;
+}
+
+.row{
+    background-color: white;
+}
+
+.col-4{
+    border: 3px solid black;
+    padding: 60px;
+    margin: 20px;
+}
+
+.table{
+    border: 3px solid black;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.col-12{
+    background-color: red;
+    padding: 30px;
+}
